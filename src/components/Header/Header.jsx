@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { selectUser, selectIsLogIn } from '../../store/selectors/selectors';
 import { loginAction } from '../../store/reducers/userReducer';
-
 import './Header.scss';
 
 export default function Header() {

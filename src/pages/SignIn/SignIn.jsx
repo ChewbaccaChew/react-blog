@@ -91,6 +91,7 @@ function SignIn() {
               className='button'
               type='submit'
               value={isSubmitting ? 'Loading...' : 'Login'}
+              disabled={isLoading}
             />
           </form>
         </div>
